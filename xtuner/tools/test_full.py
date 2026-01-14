@@ -16,7 +16,7 @@ from typing import List, Dict, Any
 from unicodedata import normalize
 from multiprocessing import Process, JoinableQueue
 
-import deepspeed  # 保留以兼容原环境
+import deepspeed
 import torch
 import pandas as pd
 import numpy as np
@@ -42,7 +42,7 @@ from openslide import open_slide, ImageSlide
 from openslide.deepzoom import DeepZoomGenerator
 from torch.utils.data import Dataset, DataLoader
 
-# 尝试导入 CONCH
+
 try:
     from conch.open_clip_custom import create_model_from_pretrained
     CONCH_AVAILABLE = True
