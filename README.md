@@ -94,6 +94,21 @@ xtuner test configs/slidechat/stage_2.py \
 --local_rank 0
 ```
 
+## Computational Resources
+
+### Training
+We trained SlideChat using **8 x NVIDIA A100 (80GB)** GPUs.
+
+| Parameter | Stage-1 | Stage-2 |
+| :--- | :--- | :--- |
+| **Training GPUs** | 8 x A100 (80 GB) | 8 x A100 (80 GB) |
+| **Total Training Time** | ~3 hours | ~24 hours |
+| **Batch Size** | 1 | 1 |
+| **Epochs** | 3 | 1 |
+
+### Inference
+SlideChat is deployment-friendly. NVIDIA A100 (80GB) is recommended for processing large slides, while a single NVIDIA RTX 4090 (24GB) is sufficient for WSIs with < 20,480 patches.
+
 # Contact
 - Ying Chen: cying2023@stu.xmu.edu.cn
 - Yuanfeng Ji: yfj@stanford.edu
