@@ -21,8 +21,9 @@ We release **SlideChat**, **SlideInstruction**, and **SlideBench** as open-sourc
 - **SlideBench**: A WSI multimodal benchmark including SlideBench-Caption, SlideBench-VQA-TCGA, and SlideBench-VQA-BCNB.
 Before open‑sourcing, SlideBench‑VQA‑TCGA underwent a second round of expert review with pathologists, further enhancing data quality. The initial version covers 10 cancer types with 1,494 samples (SlideBench‑VQA‑TCGA.csv). **We later expanded it to 31 additional cancer types, rigorously validated by experts, yielding 3,176 samples (SlideBench‑VQA‑TCGA‑plus.csv).** SlideChat achieved an accuracy of 75.23% on the initial version and 74.12% on the expanded version.
 
-# Usage
+## Installation
 
+### Environment Setup
 This project is built upon [**Xtuner**](https://github.com/InternLM/xtuner). To get started:
 
 ```bash
@@ -32,6 +33,13 @@ git clone https://github.com/uni-medical/SlideChat.git
 cd SlideChat
 pip install -e .
 ```
+### Dependencies
+- Python >= 3.10
+- [Xtuner](https://github.com/InternLM/xtuner)
+- [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+- Pytorch
+
+Please refer to `requirements.txt` and `environment.yaml` for the complete list of dependencies.
 
 ## Pre-requisites
 
