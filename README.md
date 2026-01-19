@@ -18,8 +18,8 @@
 We release **SlideChat**, **SlideInstruction**, and **SlideBench** as open-source resources, hoping to facilitate research and development in computational pathology.
 - **SlideChat**: The first large vision-language assistant for whole-slide pathology image analysis, capable of generating comprehensive descriptions and contextually relevant responses.
 - **SlideInstruction**: The largest comprehensive WSI instruction-following dataset, derived from pathology reports..
-- **SlideBench**: A WSI multimodal benchmark including SlideBench-Caption, SlideBench-VQA-TCGA, and SlideBench-VQA-BCNB.
-Before open‑sourcing, SlideBench‑VQA‑TCGA underwent a second round of expert review with pathologists, further enhancing data quality. The initial version covers 10 cancer types with 1,494 samples (SlideBench‑VQA‑TCGA.csv). **We later expanded it to 31 additional cancer types, rigorously validated by experts, yielding 3,176 samples (SlideBench‑VQA‑TCGA‑plus.csv).** SlideChat achieved an accuracy of 75.23% on the initial version and 74.12% on the expanded version.
+- **SlideBench**: A WSI multimodal benchmark including SlideBench-Caption (TCGA, CPTAC, HISTAI) and SlideBench-Closed(VQA-TCGA, VQA-BCNB, VQA-CPTAC, VQA-HISTAI).
+Before open‑sourcing, SlideBench‑VQA‑TCGA underwent a second round of expert review with pathologists, further enhancing data quality. The initial version covers 10 cancer types with 1,494 samples. **We later expanded it to 31 additional cancer types, rigorously validated by experts, yielding 3,176 samples (SlideBench‑VQA‑TCGA.csv).** SlideChat achieved an accuracy of 75.23% on the initial version and 74.12% on the expanded version.
 
 ## Installation
 
