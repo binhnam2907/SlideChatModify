@@ -1,49 +1,49 @@
 [
     {
-        "id": "train::0",
+        "id": "concept::0",
         "image": [
             "TCGA-A7-A0CJ-01Z-00-DX2.csv"
         ],
         "conversations": [
             {
                 "from": "human",
-                "value": "How does the presence of vascular invasion in breast cancer patients influence prognosis in this case?\n<image>"
+                "value": "Analyze the provided pathology slide. You must evaluate the presence of the following kidney cancer subtypes based on their histological features:\n\nKIRC (Kidney Renal Clear Cell Carcinoma):\n  - Clear cytoplasm due to glycogen and lipid accumulation\n  - Prominent delicate thin-walled vasculature (chicken-wire pattern)\n  - Alveolar or acinar architecture\n  - Cells arranged in nests surrounded by a rich vascular network\n  - Nuclei typically round with visible nucleoli (Fuhrman grading)\n\nKIRP (Kidney Renal Papillary Cell Carcinoma):\n  - Papillary architecture with fibrovascular cores\n  - Foamy macrophages within the papillary stalks\n  - Psammoma bodies (calcified concentric lamellae)\n  - Tubulo-papillary growth pattern\n  - Basophilic or eosinophilic cytoplasm depending on type (I vs II)\n\nKICH (Kidney Chromophobe):\n  - Pale eosinophilic or reticular cytoplasm\n  - Prominent perinuclear halos (clearing around nucleus)\n  - Plant-like cells with well-defined cell borders\n  - Raisinoid or wrinkled nuclei with irregular nuclear membranes\n  - Solid sheet or alveolar growth pattern\n\nN/A (No Cancer):\n  - Normal renal parenchyma without malignant features\n  - Preserved tubular and glomerular architecture\n  - No evidence of invasive carcinoma\n\nFollow the required diagnostic template in your response.\n<image>"
             },
             {
                 "from": "gpt",
-                "value": "Presence of vascular invasion in breast cancer patients indicates that cancer cells have invaded blood vessels or lymphatics, which can facilitate the spread of these cells to other parts of the body. This makes it a significant adverse prognostic factor. Vascular invasion is associated with a higher likelihood of distant metastasis, as the invaded vessels can act as pathways for cancer cells to disseminate and potentially form secondary tumors in other organs. As a result, patients with vascular invasion often have a higher risk of recurrence and a poorer overall prognosis compared to those without. "
+                "value": "KIRC evidence: Clear cell nests with delicate vascular network observed.\nKIRP evidence: No papillary formations identified.\nKICH evidence: No perinuclear halos or pale eosinophilic cells present.\n\nKIRC: Positive\nKIRP: Negative\nKICH: Negative\n\nFinal diagnosis: KIRC\nExplanation: The presence of clear cytoplasm and prominent vasculature supports the diagnosis of KIRC."
             }
         ]
     },
     {
-        "id": "train::1",
+        "id": "concept::1",
         "image": [
             "TCGA-AR-A255-01Z-00-DX1.csv"
         ],
         "conversations": [
             {
                 "from": "human",
-                "value": "What type of carcinoma is indicated in this case based on histological examination and clinical context?\n<image>"
+                "value": "Analyze the provided pathology slide. You must evaluate the presence of the following kidney cancer subtypes based on their histological features:\n\nKIRC (Kidney Renal Clear Cell Carcinoma):\n  - Clear cytoplasm due to glycogen and lipid accumulation\n  - Prominent delicate thin-walled vasculature (chicken-wire pattern)\n  - Alveolar or acinar architecture\n  - Cells arranged in nests surrounded by a rich vascular network\n  - Nuclei typically round with visible nucleoli (Fuhrman grading)\n\nKIRP (Kidney Renal Papillary Cell Carcinoma):\n  - Papillary architecture with fibrovascular cores\n  - Foamy macrophages within the papillary stalks\n  - Psammoma bodies (calcified concentric lamellae)\n  - Tubulo-papillary growth pattern\n  - Basophilic or eosinophilic cytoplasm depending on type (I vs II)\n\nKICH (Kidney Chromophobe):\n  - Pale eosinophilic or reticular cytoplasm\n  - Prominent perinuclear halos (clearing around nucleus)\n  - Plant-like cells with well-defined cell borders\n  - Raisinoid or wrinkled nuclei with irregular nuclear membranes\n  - Solid sheet or alveolar growth pattern\n\nN/A (No Cancer):\n  - Normal renal parenchyma without malignant features\n  - Preserved tubular and glomerular architecture\n  - No evidence of invasive carcinoma\n\nFollow the required diagnostic template in your response.\n<image>"
             },
             {
                 "from": "gpt",
-                "value": "Infiltrating ductal carcinoma is identified in this case, characterized by its classification as a Nottingham grade II carcinoma, indicating moderate differentiation of the tumor cells. "
+                "value": "KIRC evidence: No clear cell morphology or prominent vasculature identified.\nKIRP evidence: Papillary architecture with fibrovascular cores observed.\nKICH evidence: No perinuclear halos or pale eosinophilic cells present.\n\nKIRC: Negative\nKIRP: Positive\nKICH: Negative\n\nFinal diagnosis: KIRP\nExplanation: The presence of papillary structures supports the diagnosis of KIRP."
             }
         ]
     },
     {
-        "id": "train::2",
+        "id": "concept::2",
         "image": [
             "TCGA-A7-A6VV-01Z-00-DX2.csv"
         ],
         "conversations": [
             {
                 "from": "human",
-                "value": "What histopathological changes were observed in the non-tumorous breast tissue?\n<image>"
+                "value": "Analyze the provided pathology slide. You must evaluate the presence of the following kidney cancer subtypes based on their histological features:\n\nKIRC (Kidney Renal Clear Cell Carcinoma):\n  - Clear cytoplasm due to glycogen and lipid accumulation\n  - Prominent delicate thin-walled vasculature (chicken-wire pattern)\n  - Alveolar or acinar architecture\n  - Cells arranged in nests surrounded by a rich vascular network\n  - Nuclei typically round with visible nucleoli (Fuhrman grading)\n\nKIRP (Kidney Renal Papillary Cell Carcinoma):\n  - Papillary architecture with fibrovascular cores\n  - Foamy macrophages within the papillary stalks\n  - Psammoma bodies (calcified concentric lamellae)\n  - Tubulo-papillary growth pattern\n  - Basophilic or eosinophilic cytoplasm depending on type (I vs II)\n\nKICH (Kidney Chromophobe):\n  - Pale eosinophilic or reticular cytoplasm\n  - Prominent perinuclear halos (clearing around nucleus)\n  - Plant-like cells with well-defined cell borders\n  - Raisinoid or wrinkled nuclei with irregular nuclear membranes\n  - Solid sheet or alveolar growth pattern\n\nN/A (No Cancer):\n  - Normal renal parenchyma without malignant features\n  - Preserved tubular and glomerular architecture\n  - No evidence of invasive carcinoma\n\nFollow the required diagnostic template in your response.\n<image>"
             },
             {
                 "from": "gpt",
-                "value": "The non-tumorous breast tissue demonstrated fibrocystic changes, which are characterized by the presence of cysts, fibrosis, and an increase in the glandular tissue of the breast. One notable feature in this tissue was apocrine metaplasia, where the epithelial cells lining the cysts take on characteristics similar to apocrine sweat glands. "
+                "value": "KIRC evidence: No clear cell morphology or prominent vasculature identified.\nKIRP evidence: No papillary formations identified.\nKICH evidence: Pale eosinophilic cells with prominent perinuclear halos observed.\n\nKIRC: Negative\nKIRP: Negative\nKICH: Positive\n\nFinal diagnosis: KICH\nExplanation: The presence of pale eosinophilic cells and perinuclear halos supports the diagnosis of KICH."
             }
         ]
     }
